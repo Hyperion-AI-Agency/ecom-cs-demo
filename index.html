@@ -91,15 +91,25 @@
         (function(d, t) {
             var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
             v.onload = function() {
-              window.voiceflow.chat.load({
+                window.voiceflow.chat.load({
                 verify: { projectID: '661ea41dec2e46d65982dba7' },
                 url: 'https://general-runtime.voiceflow.com',
                 versionID: 'production'
-              });
+                });
             }
             v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
         })(document, 'script');
-      </script>
+    </script>
+
+      <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFEHV67E0M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QFEHV67E0M');
+    </script>
 
 </body>
 </html>
